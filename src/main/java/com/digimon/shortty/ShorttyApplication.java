@@ -8,5 +8,7 @@ public class ShorttyApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ShorttyApplication.class, args);
+
+		ShorttyWebClient swc = new ShorttyWebClient();
 	}
 }
